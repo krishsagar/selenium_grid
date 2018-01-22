@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="10" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <parameter name="system" value="pc6"/>
+  <test name="Test1">
+    <parameter name="system" value="pc1"/>
+    <classes>
+      <class name="grid_hub_node.Grid_Demo_parallel"/>
+    </classes>
+  </test> <!-- Test1 -->
+  <test name="Test2">
+    <parameter name="system" value="pc2"/>
+    <classes>
+      <class name="grid_hub_node.Grid_Demo_parallel"/>
+    </classes>
+  </test> <!-- Test2 -->
+  <test name="Test3">
+    <parameter name="system" value="pc3"/>
+    <classes>
+      <class name="grid_hub_node.Grid_Demo_parallel"/>
+    </classes>
+  </test> <!-- Test3 -->
+  <test name="Test4">
+    <parameter name="system" value="pc4"/>
+    <classes>
+      <class name="grid_hub_node.Grid_Demo_parallel"/>
+    </classes>
+  </test> <!-- Test4 -->
+  <test name="Test5">
+    <parameter name="system" value="pc5"/>
+    <classes>
+      <class name="grid_hub_node.Grid_Demo_parallel"/>
+    </classes>
+  </test> <!-- Test5 -->
+  <test name="Test6">
+    <parameter name="system" value="pc6"/>
+    <classes>
+      <class name="grid_hub_node.Grid_Demo_parallel"/>
+    </classes>
+  </test> <!-- Test6 -->
+</suite> <!-- Failed suite [Suite] -->

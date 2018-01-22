@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="10" parallel="tests">
+  <test name="Test1">
+  <parameter name="system" value="pc1"/>
+     <classes>
+      <class name="grid_hub_node.Grid_Demo_parallel"/>
+    </classes>
+  </test> 
+  
+  
+   <test name="Test2">
+  <parameter name="system" value="pc2"/>
+     <classes>
+      <class name="grid_hub_node.Grid_Demo_parallel"/>
+    </classes>
+  </test> 
+  
+  
+  
+   <test name="Test3">
+  <parameter name="system" value="pc3"/>
+     <classes>
+      <class name="grid_hub_node.Grid_Demo_parallel"/>
+    </classes>
+  </test>
+  
+  
+   <test name="Test4">
+  <parameter name="system" value="pc4"/>
+     <classes>
+      <class name="grid_hub_node.Grid_Demo_parallel"/>
+    </classes>
+  </test>
+  
+  
+  
+  
+  
+   <test name="Test5">
+  <parameter name="system" value="pc5"/>
+     <classes>
+      <class name="grid_hub_node.Grid_Demo_parallel"/>
+    </classes>
+  </test>
+  
+  
+   <test name="Test6">
+  <parameter name="system" value="pc6"/>
+     <classes>
+      <class name="grid_hub_node.Grid_Demo_parallel"/>
+    </classes>
+  </test>
+  
+  
+</suite> <!-- Suite -->
